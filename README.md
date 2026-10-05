@@ -16,3 +16,7 @@ DOMPurify; HTML/event attributes and dangerous URL schemes are rejected.
 Requires the Forge JavaScript backend, browser BigInt/TextEncoder support, and
 Node for bundling. Native C builds cannot use this browser-only module. See
 portfolio-platform/frontend-forge for a complete integration.
+
+Module version 0.1.4 pins Forge Web 0.1.3, matching its current protocol and JSON
+bridge API. Version 0.1.3 remains immutable and retains its Web 0.1.2 dependency.
+Use the matching exact versions in your package manifest and lock file.
